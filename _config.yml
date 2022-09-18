@@ -181,7 +181,6 @@ keep_files:
 
 # Plug-ins
 plugins:
-    - jekyll-diagrams # Needed for mermaid
     - jekyll-feed
     - jekyll-sitemap
   # - jekyll-archives
