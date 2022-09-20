@@ -2,10 +2,10 @@
 layout: page
 title: Projekte
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Einige meiner Nebenprojekte
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [freiberufliche Tätigkeit, 3D-Druck, Handwerk, Sonstiges]
 horizontal: false
 ---
 
