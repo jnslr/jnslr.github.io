@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Motorsynchronisation
-description: Phasengleichlaufs zweier Motoren mit Siemens S7
+title: Motoren synchronisieren
+description: Phasengleichlauf zweier Motoren mit Siemens S7
 img: assets/img/projects/motorsync/P_ST70_XX_07579J.jpg
 importance: 1
 category: freiberufliche Tätigkeit
