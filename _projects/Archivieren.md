@@ -162,7 +162,7 @@ Durch die fortlaufende Nummerierung der Dokumente ist es jederzeit möglich auch
 
 <div class="row px-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/archiving/WindowsSuche.PNG" title="Suche nach Dokumenten mit der Suche im Datei Explorer" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/projects/archiving/WindowsSuche.png" title="Suche nach Dokumenten mit der Suche im Datei Explorer" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
