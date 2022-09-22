@@ -2,7 +2,7 @@
 layout: page
 title: Temperatur überwachen
 description: Temperaturüberwachung eines leerstehenden Gebäudes via Mobilfunk
-img: assets/img/projects/tempmonitor/TempSensor1.png
+img: assets/img/projects/tempmonitor/TempSensor1.PNG
 importance: 1
 category: Sonstiges
 ---
