@@ -34,7 +34,7 @@ Anstatt unnötig Zeit mit der Archivierung zu vergeuden bin ich dazu übergegang
 Die digitalen Kopien werden mittels OCR (Optical Character Recognition), sprich einer Texterkennung, gescannt.
 
 Dies erlaubt es, elektronisch nach Inhalten im Dokument zu suchen, und das sogar ohne zusätzlich zu installierende Software.
-Ich lege alle Dokumente in einem Ordner auf meinem Rechner ab. Mit der Suche im Windows-Explorer - ja ich nutze auf meinem Haupsystem Windows - kann ich nun einfach und effizient nach Inhalten suchen.
+Ich lege alle Dokumente in einem Ordner auf meinem Rechner ab. Mit der Suche im Windows-Explorer - ja ich nutze auf meinem Hauptsystem Windows - kann ich nun einfach und effizient nach Inhalten suchen.
 
 Meine Lösung kurz gefasst:
 
@@ -46,10 +46,10 @@ Meine Lösung kurz gefasst:
 ### Chaotische Archivierung
 
 Nach der Digitalisierung werden die Dokumente mit einer eindeutigen Nummer versehen und anschließend in **einen einzigen Ordner** abgeheftet.
-Vielleicht wäre der Begriff chonologische Archivierung angebrachter.
+Vielleicht wäre der Begriff chronologische Archivierung angebrachter.
 
 Wir wollen schließlich nicht mehr die analogen Dokumente, sondern ihre *digitalen Zwillinge* durchforsten, wenn wir auf der Suche nach einem bestimmten Dokument sind.
-Sollte doch einmal das Original benötigt werden, so können wir duch unsere Indizierung immer schnell das Original ausfindig machen.
+Sollte doch einmal das Original benötigt werden, so können wir durch unsere Indizierung immer schnell das Original ausfindig machen.
 
 Falls unser Dokumentenmanagement doch einmal versagt, so sind die Dokumente zumindest chronologisch geordnet, und können so gefunden werden. 
 
@@ -94,7 +94,7 @@ Die Reihenfolge der Rückseitenscans über das Menü des Dokuments umkehren.
     </div>
 </div>
 
-Nun müssen Vorder- und Rückseiten nur noch über die Reißverschlußmethode zusammengefügt werden. Hierzu beide Dokumente auswählen und dann den entpsrechenden Button drücken. Man erhält ein Dokument mit Vorder- und Rückseiten in der richtigen Reihenfolge.
+Nun müssen Vorder- und Rückseiten nur noch über die Reißverschlußmethode zusammengefügt werden. Hierzu beide Dokumente auswählen und dann den entsprechenden Button drücken. Man erhält ein Dokument mit Vorder- und Rückseiten in der richtigen Reihenfolge.
 
 <div class="row px-4">
     <div class="col-sm mt-3 mt-md-0">
@@ -106,7 +106,7 @@ Nun müssen Vorder- und Rückseiten nur noch über die Reißverschlußmethode zu
 </div>
 
 Im PDF Creator die einzelnen Dokumente per Drag and Drop trennen und unter einer eindeutigen Nummer abspeichern. Ich nutze `0085_210501.pdf` als Format.
-Wobei `0085` Die Dokumentennummmer angibt und `210501` Datum der Archivierung angibt. Die Dokumentennummer schreibe ich dann zusätzlich auf das Dokument.
+Wobei `0085` Die Dokumentennummer angibt und `210501` Datum der Archivierung angibt. Die Dokumentennummer schreibe ich dann zusätzlich auf das Dokument.
 Sodass wir eine eindeutige Indizierung von analogem Dokument und digitalem Zwilling (PDF-Dokument) erzeugt haben.
 
 <div class="row px-4">
@@ -172,7 +172,7 @@ Durch die fortlaufende Nummerierung der Dokumente ist es jederzeit möglich auch
 ### Und was ist mit der Cloud?
 
 Da es sich technisch gesehen nur um einen Ordner mit pdf Dokumenten handelt funktioniert das ganze auch mit jedem Cloudsystem.
-Vorrausgesetzt natürlich die Cloudanwendung kann auch die Metadaten der Dokumente indizieren um nach Dokumenten zu suchen.
+Vorausgesetzt natürlich die Cloudanwendung kann auch die Metadaten der Dokumente indizieren um nach Dokumenten zu suchen.
 
 Ich habe den betreffenden Ordner einfach über das entsprechende Desktop-Tool meines Cloudanbieters synchronisiert.
 
@@ -182,7 +182,7 @@ Dadurch habe ich jederzeit und weltweit Zugriff auf alle meine Dokumente.
 Auch die Suche nach Schlagworten funktioniert bspw. über die Android App meines Cloudanbieters einwandfrei.
 
 > Ob man solche vertraulichen Dokumente mit seinem Cloudanbieter teilen möchte ist natürlich eine ganz andere Frage.
-> Sebstverständlich könnte man das auch ein selbstgehostetes Cloud System realisieren.
+> Selbstverständlich könnte man das auch ein selbstgehostetes Cloud System realisieren.
 > Dieses sollte dann aber auf einem gemieteten Rechenzentrum laufen, sodass lokale Kopie und Server räumlich getrennt sind.
 
 

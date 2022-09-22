@@ -35,14 +35,14 @@ Zusätzlich wurden Sicherheitsfunktionen wie die Zuhaltung von Schutztüren übe
 ## Umsetzung
 
 - Die Drehzahl und Position des Hauptantrieb wird mit einem Absolutencoder erfasst. Dieser wird per Profinet angebunden
-- Der zu synchronisierende Motor wird über einen V90 Frequenzumrichter angesteuert und über Profinet angebnunden.
+- Der zu synchronisierende Motor wird über einen V90 Frequenzumrichter angesteuert und über Profinet angebunden.
 - Der Sicherheitskreis wird mit Sicherheitsein-/ bzw. Ausgängen im Sicherheitsprogramm der SPS realisiert.
 - Die Steuerung der Anlage wird von einer Siemens S7 1500 mit MotionControl Objekten übernommen.
-- Eine LED zeigt die Zustände der Analage (nicht synchronisiert, synchronisieren, synchonisiert) durch unterschiedliche Blinklängen an.
+- Eine LED zeigt die Zustände der Anlage (nicht synchronisiert, synchronisieren, synchronisiert) durch unterschiedliche Blinklängen an.
 
 ## Testaufbau
 
-Zum Prüfen der Funktion des Systems, ohne die komplette Anlage betreiben zu müssen wurde ein Testsaufbau umgesetzt. Dieser besteht aus einem kleinen Gleichstrommotor, welcher mit vergleichbarer Drehzahl des Hauptantriebs betrieben werden kann.
+Zum Prüfen der Funktion des Systems, ohne die komplette Anlage betreiben zu müssen wurde ein Testaufbau umgesetzt. Dieser besteht aus einem kleinen Gleichstrommotor, welcher mit vergleichbarer Drehzahl des Hauptantriebs betrieben werden kann.
 Der DC-Motor treibt den Encoder an, der im realen System mit dem Hauptantrieb gekoppelt ist.
 Der zu synchronisierende Motor wurde durch einen kleineren Motor der gleichen Baureihe ersetzt.
 
@@ -69,5 +69,5 @@ Um die korrekte Funktion der Phasengleichlaufs zu prüfen wurden an Encoder und 
 
 ## Besondere Herausforderungen
 
-- Der Absolutwertgeber hat in der Standardkonfiguration nach einem Neustart des Systems seine Absolutposition verloren. Hier musste das Telegramm im SPS Code modifiert werden, damit die Absolutposition korrekt übermittelt wird.
+- Der Absolutwertgeber hat in der Standardkonfiguration nach einem Neustart des Systems seine Absolutposition verloren. Hier musste das Telegramm im SPS Code modifiziert werden, damit die Absolutposition korrekt übermittelt wird.
 - Die STO (SafeTorqueOff) Funktion des Frequenzumrichters (V90) sollte durch die Sicherheitsausgänge der SPS geschaltet werden. Diese führen allerdings regelmäßig einen Dunkeltest (kurzes Abschalten des Ausgangs zum prüfen der korrekten Funktion). Dieser Test hat die STO Funktion des Frequenzumrichters ausgelöst und zum Stillstand und Fehlermeldung des Motors geführt. Hier musste ein weiteres Sicherheitsschaltgerät verwendet werden um die korrekte Funktion zu gewährleisten.

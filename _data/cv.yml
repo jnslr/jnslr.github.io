@@ -17,7 +17,7 @@
       description:
         - SPS-Programmierung (Motorsynchronisation mit Siemens S7)
         - Sensordatenerfassung (Umweltdatenerfassung mit Cloudanbindung)
-        - WiFi basiertes PickByLight (Microcontroller + Electron Tool)
+        - WiFi basiertes PickByLight (Mikrocontroller + Electron Tool)
     - title: Softwareentwickler
       institution: Bizerba SE & Co. KG, Balingen
       year: Februar 2020
@@ -78,7 +78,7 @@
         - MS Office
         - LaTeX
         - Markdown
-    - title: Kommunikations/Feldbus- Protokolle
+    - title: Kommunikations-/Feldbus-Protokolle
       items:
         - OPC-UA, Modbus (RTU/TCP), MQTT
         - CanOpen

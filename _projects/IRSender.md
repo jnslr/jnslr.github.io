@@ -8,7 +8,7 @@ category: Sonstiges
 ---
 
 Kleine Studentenbude, großes Kino? Kein Problem dachte ich mir, und habe mir für mein 12m² großes Studentenzimmer einen Beamer angeschafft.
-Das Erlebnis wurde allerdings dadurch getrübt, dass der Infrarot-Empfänger des Beamers auf der Hinterseite des Geräts angeracht war.
+Das Erlebnis wurde allerdings dadurch getrübt, dass der Infrarot-Empfänger des Beamers auf der Hinterseite des Geräts angebracht war.
 Da das Gerät direkt an der Wand - halb verdeckt durch ein Regalbrett - positioniert war, hatten die Infrarot-Signale der Fernbedienung kaum ein Durchkommen, diese war quasi unbrauchbar.
 
 Warum also nicht die Fernbedienung durch das Smartphone ersetzen?
@@ -46,9 +46,9 @@ Anstatt teure Elektronikgehäuse zu verwenden wurde eine "Tupperbox" aus dem 1�
 </div>
 
 Im Inneren der Box kommt ein ESP01 Modul zum Einsatz.
-Diese sind extrem kostengünstig (1-2€ pro Stück), bieten allerdings nur sehr limiterten GPIO.
+Diese sind extrem kostengünstig (1-2€ pro Stück), bieten allerdings nur sehr limitierten GPIO.
 Da in diesem Projekt nur eine LED angesteuert werden muss ist dies völlig ausreichend.
-Das Programmieren der Boards erfordert einen externen USB-zu-TTL Adapter (auf größeren Boards ist dieser schon verbaut) und auch das versetzen des Boards in den Programmiermodus erfordert etwas geschick. Hierzu muss nämlich `GPIO0` auf Ground gezogen und gleichzeitig ein Reset durchgeführt werden.
+Das Programmieren der Boards erfordert einen externen USB-zu-TTL Adapter (auf größeren Boards ist dieser schon verbaut) und auch das versetzen des Boards in den Programmiermodus erfordert etwas Geschick. Hierzu muss nämlich `GPIO0` auf Ground gezogen und gleichzeitig ein Reset durchgeführt werden.
 
 Ein weiterer Nachteil des ESP01 ist der fehlende Spannungswandler auf dem Board, es kann nur mit 3,3V betrieben werden.
 Daher kommt ein DC-DC Wandler (links im Bild) zum Einsatz, der die USB-Spannung von 5V auf 3,3V umsetzt.
@@ -88,5 +88,5 @@ In meinem Fall verwendete die Fernbedienung das `NEC` Protokoll die Kommandos we
 
 
 
-Die Website wurde statisch in den Quellcode eincompiliert und verwendet einfache http-Requests zum auslösen der IR-Kommandos.
+Die Website wurde statisch in den Quellcode einkompiliert und verwendet einfache http-Requests zum auslösen der IR-Kommandos.
 Selbstverständlich hätten hier noch weitere Funktionen, bspw. eine MQTT Anbindung, Sleep-Timer oder ähnliches hinzugefügt werden können.
