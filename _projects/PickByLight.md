@@ -38,7 +38,7 @@ Die Geräte sind durch ihre WLAN Anbindung frei positionierbar und benötigen le
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.html path="assets/img/projects/pickbylight/SystemDiagram.svg" title="Pick by Light Konzept" class="bg-light img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/projects/pickbylight/SystemDiagram.svg" title="Pick by Light Konzept" class="p-3 bg-white img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
