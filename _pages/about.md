@@ -23,3 +23,6 @@ Anschließend habe ich zunächst in Luxembourg, dann in Darmstadt Maschinenbau s
 
 Während des Studiums habe ich vor allem durch die Arbeit mit Tools zur Datenerfassung und Auswertung (MatLab, SciLab, LabView) als auch durch die SPS-Programmierung immer mehr den Hang zur Software entdeckt.
 Schließlich hat es mich beruflich auf die schwäbische Alb verschlagen, wo ich aktuell als Softwareentwickler lebe und arbeite.
+
+Seit 2020 bin ich zudem auch nebenberuflich tätig.
+Als Freelancer setze ich kleinere Projekte in den Bereichen IoT, Softwareentwicklung oder Automatisierungstechnik um.
