@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Motoren synchronisieren
+title: Motoren syn<wbr>chronisieren
 description: Phasengleichlauf zweier Motoren mit Siemens S7
 img: assets/img/projects/motorsync/P_ST70_XX_07579J.jpg
 importance: 1

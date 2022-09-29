@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Umweltsensoren
+title: Umwelt<wbr>sensoren
 description: Modulares, WiFi basiertes Sensorsystem zum Erfassen von Umweltdaten. Datenspeicherung, Monitoring und Auswertung in der Cloud.
 img: assets/img/projects/envsensors/Luftsensoren.jpg
 importance: 2
