@@ -54,7 +54,7 @@
     
     var cookiesAllowed = readCookie('cookie-notice-dismissed')
     if(cookiesAllowed=='true') {
-        {% include scripts/ga.js %}        
+        {% include scripts/gtm.js %}        
     }
     if(cookiesAllowed === null){ //Cookie not yet set
         document.getElementById('cookie-notice').style.display = 'block';
